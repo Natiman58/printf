@@ -5,17 +5,18 @@
 /**
  * print_char - functions that prints chars
  * @arg_list: list of arguments
+ * Return: 1
  */
 int print_char(va_list arg_list)
 {
 	int str = va_arg(arg_list, int);
-	
-	_putchar(str);
-	return (1);
+		_putchar(str);
+		return (1);
 }
 /**
  * print_string-prints strings
  * @arg_list: list of arguments
+ * Return: i
  */
 int print_string(va_list arg_list)
 {
@@ -34,8 +35,9 @@ int print_string(va_list arg_list)
 	return (i);
 }
 /**
- * print_remainder-prints the %
- * arg_list: list of arguments
+ * print_modulo-prints the % operator
+ * @arg_list: list of arguments
+ * Return: 1
  */
 int print_modulo(va_list arg_list)
 {

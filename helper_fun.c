@@ -2,6 +2,7 @@
 /**
  * print_digit - prints a digit
  * @list: list of arguments
+ * Return: Number
  */
 int print_digit(va_list list)
 {
@@ -14,6 +15,7 @@ int print_digit(va_list list)
 /**
  * sign - adds plus or minus sign
  * @arg: list of numbers retrieved by va_arg
+ * Return: Number
  */
 int sign(int arg)
 {
