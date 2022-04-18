@@ -17,7 +17,7 @@ int parse_format(const char *format, format_t get_opt[], va_list list)
 		{
 			for (j = 0; get_opt[j].opt != NULL; j++)
 			{
-				if (format [i + 1] == get_opt[j].opt[0])
+				if (format[i + 1] == get_opt[j].opt[0])
 				{
 					count = get_opt[j].call_fun(list);
 					if (count == -1)

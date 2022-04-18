@@ -1,7 +1,7 @@
 #include"main.h"
 /**
  * set_decimal - prints a signed decimal
- * @va_list: list of arguments passed
+ * @list: list of arguments passed
  * Return: length of integers
  */
 int set_decimal(va_list list)
