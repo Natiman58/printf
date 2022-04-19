@@ -28,5 +28,5 @@ int set_decimal(va_list list);
 int print_percent(__attribute__((unused))va_list list);
 int length_of_integer(int n);
 int get_length(char *str __attribute__((__unused__)), va_list list);
-int arg_to_bin(va_list list);
+
 #endif
