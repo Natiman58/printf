@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - prints a string in reverse.
- * @arguments_list: Variable argument list.
+ * @list: list of arguments
  * Return: String
  */
 int print_rev(va_list list)
