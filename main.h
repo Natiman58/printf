@@ -19,18 +19,14 @@ typedef struct format
 	int (*call_fun)();
 } format_t;
 
-
-
-
-
 int _printf(const char *format, ...);
 int parse_format(const char *format, format_t get_opt[], va_list valist);
-int set_string(va_list valist);
-int set_char(va_list valist);
+int set_string(va_list list);
+int set_char(va_list list);
 int _putchar(char c);
-int set_decimal(va_list valist);
-int print_percent(__attribute__((unused))va_list valist);
+int set_decimal(va_list list);
+int print_percent(__attribute__((unused))va_list list);
 int length_of_integer(int n);
-int get_length(char *str __attribute__((__unused__)), va_list valist);
-
+int get_length(char *str __attribute__((__unused__)), va_list list);
+int arg_to_bin(va_list list);
 #endif
