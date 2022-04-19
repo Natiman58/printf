@@ -32,4 +32,6 @@ int print_bin(va_list list);
 int print_octal(va_list list);
 int print_hex(va_list list);
 int print_heX(va_list list);
+int print_rot13(va_list list);
+int print_rev(va_list list);
 #endif

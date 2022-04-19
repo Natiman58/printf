@@ -19,6 +19,8 @@ int _printf(const char *format, ...)
 		{"o", print_octal},
 		{"x", print_hex},
 		{"X", print_heX},
+		{"R", print_rot13},
+		{"r", print_rev},
 		{NULL, NULL}
 	};
 	if (!format)
