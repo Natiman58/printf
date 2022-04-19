@@ -16,6 +16,9 @@ int _printf(const char *format, ...)
 		{"d", set_decimal},
 		{"%", print_percent},
 		{"b", print_bin},
+		{"o", print_octal},
+		{"x", print_hex},
+		{"X", print_heX},
 		{NULL, NULL}
 	};
 	if (!format)

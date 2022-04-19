@@ -29,4 +29,7 @@ int print_percent(__attribute__((unused))va_list list);
 int length_of_integer(int n);
 int get_length(char *str __attribute__((__unused__)), va_list list);
 int print_bin(va_list list);
+int print_octal(va_list list);
+int print_hex(va_list list);
+int print_heX(va_list list);
 #endif
