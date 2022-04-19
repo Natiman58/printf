@@ -4,7 +4,7 @@
  * @arguments_list: arguments variadi
  * Return: amount n prints
  */
-int print_rot13(va_list arguments_list)
+int print_rot13(va_list list)
 {
 	int i = 0, cop = 0, len = 0;
 	char rot[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
