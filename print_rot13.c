@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_rot13 - pintf to rot13
- * @arguments_list: arguments variadi
- * Return: amount n prints
+ * print_rot13 - prints string in rot13 format
+ * @list: list of arguments
+ * Return: number of prints
  */
 int print_rot13(va_list list)
 {
@@ -10,7 +10,7 @@ int print_rot13(va_list list)
 	char rot[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char num[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	char *cpy;
-	char *string = va_arg(arguments_list, char *);
+	char *string = va_arg(list, char *);
 
 	for (i = 0; string[i] != '\0'; i++)
 		len++;
