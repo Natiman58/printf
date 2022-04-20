@@ -92,3 +92,9 @@ C - printf
         print_unsigned.c:- contains the functions to prints unsigned octal, hexa and HEXA of an argument passed.
 
         test_files:- contains test files to compile and test the functions.
+
+* Authors :
+        
+        Natnael Manyazewal : https://github.com/Natiman58
+        
+        Fraoul Massresha : https://github.com/FraoulMas
